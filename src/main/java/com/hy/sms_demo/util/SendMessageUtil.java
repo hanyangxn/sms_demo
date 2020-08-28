@@ -145,7 +145,7 @@ public class SendMessageUtil {
     @Test
     public void testSendMessage(){
 //        SendMessageUtil.send("SMS账户","接口秘钥","目标号码","发送内容");
-        SendMessageUtil.send("hanyangxn","hanyang201314151617","17777810234","您的账号被盗:"+"请来公安局备案");
+        SendMessageUtil.send("hanyangxn","hanyang201314151617","17777810234","验证码:"+getRandomCode(6));
 //        System.out.println(SendMessageUtil.getMessage(resultCode));
     }
 }
